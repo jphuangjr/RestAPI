@@ -1,0 +1,22 @@
+
+var containsDuplicate = function(nums) {
+    var counts = [];
+    // if(nums.length <= 1){
+    //     return false;
+    // }
+    for(i=0;i <= nums.length;i++){
+        if(counts[nums[i]] === undefined){
+            counts[nums[i]] = 1;
+        }
+        else{
+            counts[nums[i]] = nums[nums[i]] + 1;
+        }
+    }
+    return false;
+};
+
+nums[1,2,3,4,5,6,9,1];
+
+
+counts[];
+
