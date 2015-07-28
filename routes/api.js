@@ -5,12 +5,12 @@ var router = express.Router();
 
 
 //models
-var Product = require('../models/family')
+var Family = require('../models/family')
 
 
 //routes
-Product.methods(['get', 'put', 'post', 'delete']);
-Product.register(router, '/familys');
+Family.methods(['get', 'put', 'post', 'delete']);
+Family.register(router, '/families');
 
 
 module.exports = router;
