@@ -5,7 +5,7 @@ var router = express.Router();
 
 
 //models
-var Product = require('../models/product/family')
+var Product = require('../models/family')
 
 
 //routes
